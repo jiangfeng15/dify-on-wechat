@@ -1,0 +1,44 @@
+{
+    "channel_type": "gewechat",
+    "debug": true,
+    "dify_api_base": "https://api.dify.ai/v1",
+    "dify_api_key": "app-AiXRF40PJVAey41HDoNgj68e",
+    "dify_app_type": "chatbot",
+    "gewechat_app_id": "wx_NyzPRZ5NFl5sB_etckLD0",
+    "gewechat_base_url": "http://192.168.7.115:2531/v2/api",
+    "gewechat_callback_url": "http://192.168.7.115:9919/v2/api/callback/collect",
+    "gewechat_download_url": "http://192.168.7.115:2532/download",
+    "gewechat_token": "536259b9262746fd8a0dd718e50f42ed",
+    "goods_order_at_who": "锋",
+    "goods_push_group_list": [
+        "机器人测试群"
+    ],
+    "group_chat_in_one_session": [],
+    "group_chat_prefix": [],
+    "group_name_white_list": [
+        "购物分享返现群",
+        "购物分享优惠群2",
+        "一家人爱晒娃",
+        "相亲相爱一家人",
+        "肖家河吃饭群"
+    ],
+    "image_create_prefix": [
+        "画"
+    ],
+    "image_recognition": true,
+    "model": "dify",
+    "news_push_group_list": [
+        "机器人测试群"
+    ],
+    "single_chat_prefix": [
+        "bot",
+        "@锋",
+        "助手",
+        "锋"
+    ],
+    "single_chat_reply_prefix": "[hey] ",
+    "speech_recognition": true,
+    "text_to_voice": "dify",
+    "voice_reply_voice": true,
+    "voice_to_text": "dify"
+}

@@ -1,0 +1,83 @@
+{
+    "channel_type": "gewechat",
+    "debug": true,
+    "dify_api_base": "https://api.dify.ai/v1",
+    "dify_api_key": "app-AiXRF40PJVAey41HDoNgj68e",
+    "dify_app_type": "chatbot",
+    "gewechat_app_id": "wx_k30Onxje3lm0AmRcercta",
+    "gewechat_base_url": "http://192.168.7.115:2531/v2/api",
+    "gewechat_callback_url": "http://192.168.7.115:9919/v2/api/callback/collect",
+    "gewechat_download_url": "http://192.168.7.115:2532/download",
+    "gewechat_token": "536259b9262746fd8a0dd718e50f42ed",
+    "trigger_by_self": true,
+    "group_chat_in_one_session": [],
+    "group_chat_prefix": [
+	    "bot",
+	    "锋",
+	    "助手"
+    ],
+    "group_name_white_list": [
+        "学习高端交流小分队",
+        "购物分享返现群",
+        "购物分享优惠群2",
+        "一家人爱晒娃",
+      	"相亲相爱一家人",
+      	"肖家河吃饭群"
+    ],
+    "image_create_prefix": [
+        "画"
+    ],
+    "image_recognition": true,
+    "model": "dify",
+    "news_push_group_list": [
+        "机器人测试群"
+    ],
+    "single_chat_prefix": [
+      "bot",
+      "@锋",
+      "助手",
+      "锋"
+    ],
+    "news_push_group_list": [
+      "学习高端交流小分队",
+      "凤栖家园互联网群"
+    ],
+    "goods_push_group_list": [
+      "购物分享优惠群4",
+      "京东特价购福利社",
+      "京东特价购福利社12",
+      "京东线报购福利社3",
+      "京东线报购福利社4",
+      "凤栖拼团（山姆，京东）打车助力1",
+      "凤栖拼单群1"
+    ],
+    "single_chat_reply_prefix": "[hey] ",
+    "goods_order_at_who":"锋",  
+    "speech_recognition": true,
+    "text_to_voice": "dify",
+    "voice_reply_voice": false,
+    "voice_to_text": "dify",
+    "group_welcome_msg": "欢迎 {nickname} 进群！请遵守群规，构建和谐的社交群。",
+    "only_group_welcome_list": ["京东特价购福利社"],
+      "task_config": {
+    "news": {
+      "hour": "8",
+      "minute": "10",
+      "switch": true
+    },
+    "promotion": {
+      "hour": "13",
+      "minute": "30",
+      "switch": false
+    },
+    "goods_push": {
+      "hour": "9-17",
+      "minute":"*/10",
+      "switch": true
+    },
+    "goods_pull": {
+      "minute": "*/1",
+      "switch": false
+    }
+  }
+}
